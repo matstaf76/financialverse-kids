@@ -52,6 +52,13 @@ body {
   text-shadow: 0 2px 8px rgba(245,166,35,0.4);
   line-height: 1.1;
 }
+.site-logo {
+  height: clamp(100px, 18vw, 160px);
+  width: auto;
+  display: block;
+  margin: 0 auto 0.25rem;
+  filter: drop-shadow(0 4px 12px rgba(0,0,0,0.5));
+}
 .site-header .tagline {
   color: #ccc;
   font-size: 1.05rem;
